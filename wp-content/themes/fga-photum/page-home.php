@@ -2,6 +2,7 @@
 /**
  * The template for displaying all pages.
  *
+ * Template Name: home page
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
@@ -30,4 +31,11 @@ get_header(); ?>
             <?php get_sidebar(); ?>
 		</div><!-- #container -->
 
-<?php get_footer(); ?>
+	<script type="text/javascript">
+        $(document).ready(function() {
+            $('body').css('background-image', 'url(http://homeklondike.com/wp-content/uploads/2013/01/3-house-in-athens-by-314-architecture-studio.jpg)');
+            $('body').css('background-repeat', 'no-repeat');
+        });
+    </script>
+
+

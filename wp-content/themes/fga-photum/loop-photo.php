@@ -30,24 +30,24 @@ if ( has_post_thumbnail()) {
 <img src="<?php bloginfo('template_url'); ?>/images/defaultthumb.jpg"; />
 <? } ?>
 <span>
-<h4>Information</h4>
-<ul>
-<li>Date:<br />
-<?php the_time('F Y') ?>
-</li>
-<li>Equipment Used:<br />
-<?php echo get_the_term_list($post->ID, 'equipment', '', ', ', ''); ?>
-</li>
-<li>Location:<br />
-<?php echo get_the_term_list($post->ID, 'location', '', ', ', ''); ?>
-</li>
-<li>Category:<br />
-<?php the_category(', ') ?>
-</li>
-<li>Tags:<br />
-<p><?php the_tags('', ', ', ''); ?> </p>
-</li>
-</ul>
+	<div style="width:200px;">
+	<h4><?php the_title(); ?></h4>
+
+<?php 
+$meta = get_post_meta( get_the_ID() ); 
+$exclude = array('_edit_last', '_wp_page_template', '_edit_lock','_thumbnail_id');
+foreach( $meta as $key => $value ) {
+    if( in_array( $key, $exclude) )
+        continue;
+    ?>
+    <ul>
+        <li><?php echo $key; ?>: <?php echo $value[0]; ?></li>  
+    </ul>
+    <?php
+}
+?>
+
+</div>
 </span>
  </div>
                 

@@ -30,6 +30,14 @@
 				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 			</div><!-- #access -->
 
+
+           		<div id="site-info">
+				Copyright &copy; <?php echo date("Y"); ?> <a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+					<?php bloginfo( 'name' ); ?>
+				</a>. All rights reserved.
+			    </div><!-- #site-info -->
+	
+
 			<ul class="xoxo">
 
 
@@ -39,7 +47,7 @@
 	 * then the sidebar simply doesn't exist, so we'll hard-code in
 	 * some default sidebar stuff just in case.
 	 */
-	if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>
+	/*if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>
 
 			<li id="search" class="widget-container widget_search">
 				<?php get_search_form(); ?>
@@ -61,6 +69,7 @@
 				</ul>
 			</li>
 
-		<?php endif; // end primary widget area ?>
+		<?php endif; */// end primary widget area ?>
 			</ul>
 		</div><!-- #primary .widget-area -->
+
