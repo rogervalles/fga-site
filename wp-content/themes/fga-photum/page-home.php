@@ -19,13 +19,19 @@ get_header(); ?>
 			<div id="content" role="main">
 
 		<div id="maximage">
-			<img src="<?php bloginfo('template_url'); ?>/images/maximage/coalesse.jpg" alt="Coalesse" width="1400" height="1050" />
-			<img src="<?php bloginfo('template_url'); ?>/images/maximage/coffee_shop.jpg" alt="" width="2048" height="1536" />
-			<img src="<?php bloginfo('template_url'); ?>/images/maximage/gas_station.jpg" alt="" width="2048" height="1536" />
-			<img src="<?php bloginfo('template_url'); ?>/images/maximage/golf_sunset.jpg" alt="" width="2048" height="1536" />
+			<?php 
+           $content_post = get_page_by_title( 'Home images', OBJECT, 'post' );
+               if($content_post)
+               {
+                   $content = $content_post->post_content;
+                   // do whatever you want
+                   echo $content;
+               }
+        ?>
 
 		</div>
-	
+
+	    
 
 			<?php
 			/* Run the loop to output the page.
