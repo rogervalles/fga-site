@@ -18,6 +18,15 @@ get_header(); ?>
 		<div id="container">
 			<div id="content" role="main">
 
+		<div id="maximage">
+			<img src="<?php bloginfo('template_url'); ?>/images/maximage/coalesse.jpg" alt="Coalesse" width="1400" height="1050" />
+			<img src="<?php bloginfo('template_url'); ?>/images/maximage/coffee_shop.jpg" alt="" width="2048" height="1536" />
+			<img src="<?php bloginfo('template_url'); ?>/images/maximage/gas_station.jpg" alt="" width="2048" height="1536" />
+			<img src="<?php bloginfo('template_url'); ?>/images/maximage/golf_sunset.jpg" alt="" width="2048" height="1536" />
+
+		</div>
+	
+
 			<?php
 			/* Run the loop to output the page.
 			 * If you want to overload this in a child theme then include a file
@@ -31,11 +40,22 @@ get_header(); ?>
             <?php get_sidebar(); ?>
 		</div><!-- #container -->
 
-	<script type="text/javascript">
-        $(document).ready(function() {
-            $('body').css('background-image', 'url(http://homeklondike.com/wp-content/uploads/2013/01/3-house-in-athens-by-314-architecture-studio.jpg)');
-            $('body').css('background-repeat', 'no-repeat');
-        });
-    </script>
+	<script src="<?php bloginfo('template_url'); ?>/js/jquery.cycle.all.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.maximage.min.js"></script> 
+			
+	<script type="text/javascript" charset="utf-8">
+			$(function(){
+				// Trigger maximage
+
+	$('#maximage').maximage({
+		cycleOptions: {
+
+			timeout: 5000,
+		},
+		
+	});
+		
+	});
+	</script>
 
 

@@ -9,6 +9,10 @@ License URI: license.txt
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
+/*importing external css for maxImage*/
+
+@import url('screen.css');
+@import url('jquery.maximage.min.css');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
