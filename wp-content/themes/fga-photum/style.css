@@ -423,7 +423,13 @@ text-align:center;
 
 /* =Menu
 -------------------------------------------------------------- */
-
+.menu{
+	text-transform: uppercase;
+	text-align: right;
+}
+.menu li ul{
+	text-transform: lowercase;
+}
 #access {
 	display: block;
 	margin: 20px 0px 10px 40px;
@@ -467,7 +473,6 @@ div.menu li {
 #access ul ul li {
 	min-width: 160px;
 	margin-top:0px;
-	margin-left: 10px; /*left margin for submenu*/
 }
 #access ul ul ul {
 	left: 100%;
@@ -475,7 +480,7 @@ div.menu li {
 }
 #access ul ul a {
 	line-height: 1em;
-	padding: 5px 10px;
+	padding: 5px 0px 0px 0px;
 	height: auto;
 }
 #access li:hover > a {
@@ -649,6 +654,9 @@ margin-top:25px;
 	font-size: 12px;
 	font-style:italic;
 	margin: -20px 0px 0px 0px;
+}
+.entry-meta ul{
+	list-style: none;
 }
 .entry-meta abbr,
 .entry-utility abbr {
@@ -982,7 +990,7 @@ body.page .edit-link {
 }
 .entry-meta a:hover,
 .entry-utility a:hover {
-	color: #000;
+	color: #fff;
 }
 #content .video-player {
 	padding: 0;
@@ -1620,7 +1628,9 @@ display:block;
 	font: 10px 'Istok Web', Helvetica, Arial, sans-serif;
 	color:#8c8c8c;
 	font-style: italic;
-	margin: 90px 0px 0px 30px
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
 }
 .clr {
 clear:both;
