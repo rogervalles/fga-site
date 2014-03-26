@@ -19,36 +19,7 @@
 
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 
-                <div class="bigimage">         
-<?php
-if ( has_post_thumbnail()) {
-?>
- <?php echo get_the_post_thumbnail( $post->ID, 'big-thumbnail' ); ?>
- <?
-} else {
-?>
-<img src="<?php bloginfo('template_url'); ?>/images/defaultthumb.jpg"; />
-<? } ?>
-<span>
-	<div style="width:200px;">
-	<h4><?php the_title(); ?></h4>
-
-<?php 
-$meta = get_post_meta( get_the_ID() ); 
-$exclude = array('_edit_last', '_wp_page_template', '_edit_lock','_thumbnail_id');
-foreach( $meta as $key => $value ) {
-    if( in_array( $key, $exclude) )
-        continue;
-    ?>
-    <ul>
-        <li><?php echo $key; ?>: <?php echo $value[0]; ?></li>  
-    </ul>
-    <?php
-}
-?>
-
-</div>
-</span>
+                
  </div>
                 
                 
