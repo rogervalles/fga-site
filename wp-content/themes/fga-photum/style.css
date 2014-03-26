@@ -1598,6 +1598,11 @@ margin: 0px 0px 0px 15px;
 }
 #primary {
 	position: fixed;
+	/* opacity setting */
+	filter:alpha(opacity=80);    /* ie  */
+	-moz-opacity:0.8;    /* old mozilla browser like netscape  */
+	-khtml-opacity: 0.8;    /* for really really old safari */  
+	opacity: 0.8;    /* css standard, currently it works in most modern browsers like firefox,  */
 }
 #secondary {
 }
