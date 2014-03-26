@@ -930,6 +930,11 @@ font-size:12px;
 	text-align: left;
 	width: 33%;
 }
+
+.entry-content p {
+	text-align: justify;
+}
+
 .page-link {
 	clear: both;
 	color: #000;
