@@ -132,6 +132,8 @@ query_posts( array('post_type'=>array( 'photo', 'post'),'paged'=>$paged, 'cat'=>
 		</div><!-- #post-## -->
         	<?php else : ?>
             	<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<!--start item-->
+<a href="http://www.google.es">
 <div class="item">      
 <?php
 if ( has_post_thumbnail()) {
@@ -145,27 +147,25 @@ if ( has_post_thumbnail()) {
 </a>
 <? } ?>
 <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">
-<div class="caption">
 
-		<h2 class="entry-title">
-			<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?>
-			</a>
-		</h2>
-        <div class="entry-meta">
-        <?php the_meta(' '); the_category(' '); ?> - <?php the_time('Y') ?>
-        </div>
-        </a>
-	</div>
+
+<!--end item-->
+</a>
+<div class="info">
+    <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?>
+</div>
  </div>
  </div><!-- #post-## -->
+
+
  	<?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
 
 <?php endwhile; // End the loop. Whew. ?>
                    <div class="clr"></div>
-				<div id="nav-below" class="navigation">
+				<!--<div id="nav-below" class="navigation">
               										<?php
-include('wp-pagenavi.php');
-if(function_exists('wp_pagenavi')) { wp_pagenavi(); }
+//include('wp-pagenavi.php');
+//if(function_exists('wp_pagenavi')) { wp_pagenavi(); }
 ?>
-				</div><!-- #nav-below -->
+				</div>--><!-- #nav-below -->
         <?php wp_reset_query(); ?>
