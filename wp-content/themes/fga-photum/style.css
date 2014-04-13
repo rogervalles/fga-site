@@ -437,7 +437,7 @@ text-align:center;
 #access .menu-header,
 div.menu {
 	font-size: 11px;
-	margin: 0px auto;
+	margin: -10px 0 0 0;
 }
 #access .menu-header ul,
 div.menu ul {
@@ -1607,6 +1607,14 @@ margin: 0px 0px 0px 15px;
 	opacity: 0.8;    /* css standard, currently it works in most modern browsers like firefox,  */
 }
 #secondary {
+}
+
+.meta-info{
+	width: 140px;
+	color: #000;
+}
+.meta-info h1{
+
 }
 
 /* Footer widget areas */
