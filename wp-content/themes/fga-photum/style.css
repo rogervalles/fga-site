@@ -38,6 +38,9 @@ max-width:100%;
 body {
 	line-height: 1;
 }
+body .mc-cycle{
+	left: initial;
+}
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
  font-family: Helvetica, arial, sans-serif;
