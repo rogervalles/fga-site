@@ -43,7 +43,7 @@ get_header(); ?>
                         <div class="clr"></div>
               	
 			</div><!-- #content -->
-            <?php get_sidebar(); ?>
+            <?php get_sidebar(''); ?>
 		</div><!-- #container -->
 
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.cycle.all.min.js"></script>
@@ -57,6 +57,8 @@ get_header(); ?>
 		cycleOptions: {
 
 			timeout: 5000,
+			fit: 1,
+			width: 750,
 		},
 		
 	});
