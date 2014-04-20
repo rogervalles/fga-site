@@ -1623,7 +1623,9 @@ margin: 0px 0px 0px 15px;
 	width: 235px;
 	color: #000;
 	font-size: 11px;
-	text-align: right;
+	font-style: normal;
+	text-align: justify;
+	color: #757575;
 }
 ..meta-info ul{
 	margin: 0 auto;

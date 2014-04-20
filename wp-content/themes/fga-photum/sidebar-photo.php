@@ -43,7 +43,7 @@
                                 continue;
                             ?>
                             
-                                <li><?php echo $key; ?>: <?php echo $value[0]; ?></li>  
+                                <li><?php echo $value[0]; ?></li>  
                             
                             <?php
                         }
