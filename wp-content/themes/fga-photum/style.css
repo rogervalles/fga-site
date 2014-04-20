@@ -515,7 +515,7 @@ div.menu li {
 
 #main {
 	position: absolute;
-	left: 240px;
+	left: 230px;
 
 }
 #content {
@@ -763,7 +763,7 @@ margin: 10px 0px 5px 15px !important;
 
 
 .item {
-	width:251px;
+	width:200px;
 	height:251px;	
 	/*border: 1px solid #d6d6d6;
 	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.1);
@@ -784,7 +784,7 @@ margin: 10px 0px 5px 15px !important;
 	display: block;
 	margin: 0px;
 	padding: 9px;
-	width:234px !important;
+	width:190px !important;
 	height:190px !important;
 		/* allow javascript moves the img position*/
 	position:absolute;

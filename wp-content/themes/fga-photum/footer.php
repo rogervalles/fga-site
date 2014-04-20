@@ -19,7 +19,7 @@
     console.time('masonry');
     $('#move').masonry({
       itemSelector: '.item',
-      columnWidth: 30,
+      columnWidth: 2,
       isAnimated: true
     }).masonry().masonry();
     console.timeEnd('masonry');
