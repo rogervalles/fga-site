@@ -28,13 +28,9 @@
 				<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentyten' ); ?>"><?php _e( 'Skip to content', 'twentyten' ); ?></a></div>
 				<?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu.  The menu assiged to the primary position is the one used.  If none is assigned, the menu with the lowest ID is used.  */ ?>
 				<?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'menu-header', 'theme_location' => 'primary', 'depth' => 	-1 ) ); ?>
-			</div><!-- #access -->
 
-
-           		<div id="site-info">
-
-           		<div class="meta-info">	
-				<ul style="margin: 0 auto;"><li class="title"><?php the_title(); ?></li>
+				<div class="meta-info">	
+				<ul><li class="title"><?php the_title(); ?></li>
                     <?php 
                         $meta = get_post_meta( get_the_ID() ); 
                         $exclude = array('_edit_last', '_wp_page_template', '_edit_lock','_thumbnail_id');
@@ -50,6 +46,12 @@
                         ?>
                 </ul>
                 </div>
+			</div><!-- #access -->
+
+
+           		<div id="site-info">
+
+           		
 			    </div><!-- #site-info -->
 	
 

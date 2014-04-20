@@ -1498,7 +1498,6 @@ margin:20px 0px 0px 0px !important;
 .widget-area ul {
 	list-style: none;
 	width:170px;
-	margin:0px 10px;
 }
 .widget-area ul ul {
 	list-style: square;
@@ -1627,8 +1626,8 @@ margin: 0px 0px 0px 15px;
 	text-align: justify;
 	color: #757575;
 }
-..meta-info ul{
-	margin: 0 auto;
+.meta-info ul{
+	margin: 5px 0px 0px 0px;
 }
 .title{
     font-weight: bold;
