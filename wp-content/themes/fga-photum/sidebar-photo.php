@@ -32,7 +32,7 @@
 				<div class="meta-info">	
 				<ul><li class="title"><?php the_title(); ?></li>
                     <?php 
-                        $meta = get_post_meta( get_the_ID() ); 
+                        /*$meta = get_post_meta( get_the_ID() ); 
                         $exclude = array('_edit_last', '_wp_page_template', '_edit_lock','_thumbnail_id');
                         foreach( $meta as $key => $value ) {
                             if( in_array( $key, $exclude) )
@@ -42,7 +42,8 @@
                                 <li><?php echo $value[0]; ?></li>  
                             
                             <?php
-                        }
+                        }*/
+                        echo get_the_excerpt();
                         ?>
                 </ul>
                 </div>
