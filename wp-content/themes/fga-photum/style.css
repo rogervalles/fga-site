@@ -429,8 +429,17 @@ text-align:center;
 	text-transform: uppercase;
 	text-align: left;
 }
-.menu li ul{
+.menu li ul, .submenu{
 	text-transform: lowercase;
+}
+.submenu {
+    display: none;
+}
+.first{
+	border-top: 1px solid #000;
+}
+.last{
+	border-bottom: 1px solid #000;
 }
 #access {
 	display: block;

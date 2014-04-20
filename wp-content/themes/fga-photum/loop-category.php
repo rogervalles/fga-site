@@ -169,3 +169,9 @@ if ( has_post_thumbnail()) {
 ?>
 				</div>--><!-- #nav-below -->
         <?php wp_reset_query(); ?>
+
+<script type="text/javascript">
+
+     $(".submenu").css("display", "block");
+
+</script>
