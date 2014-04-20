@@ -76,7 +76,7 @@ LAYOUT: Two columns
 DESCRIPTION: Two-column fixed layout with one sidebar right of content
 */
 #move{
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-left: 0px;
 }
 #container {
