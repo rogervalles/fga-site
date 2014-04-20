@@ -231,7 +231,7 @@ body,
 input,
 textarea {
 	color: #666;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 18px;
 }
 hr {
@@ -525,7 +525,7 @@ div.menu li {
 #content input,
 #content textarea {
 	color: #757575;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 22px;
 }
 #content p,
@@ -575,7 +575,7 @@ div.menu li {
 #content tr th,
 #content thead th {
 	color: #888;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: bold;
 	line-height: 18px;
 	padding: 9px 24px;
@@ -632,7 +632,7 @@ div.menu li {
 }
 #content .entry-title {
 	color: #000;
-	font-size: 12px;
+	font-size: 11px;
 	line-height:21px;
     font-family: Helvetica, arial, sans-serif;
 	
@@ -657,7 +657,7 @@ margin-top:25px;
 }
 .entry-meta {
 	color: #c1bfbf;
-	font-size: 12px;
+	font-size: 11px;
 	font-style:italic;
 	margin: -20px 0px 0px 0px;
 }
@@ -704,7 +704,7 @@ width:180px;
    left:574px;
    color:#8C8C8C;
    display:inline;
-   font-size:12px;
+   font-size: 11px;
    background-color:#000;
    padding:5px;
    width:25%;
@@ -891,7 +891,7 @@ margin: 0px 10px 20px 0px;
 
 .entry-summary {
 float:right;
-font-size:12px;
+font-size: 11px;
 }
 #content .entry-summary p:last-child {
 	margin-bottom: 12px;
@@ -916,7 +916,7 @@ font-size:12px;
 }
 .entry-content label {
 	color: #888;
-	font-size: 12px;
+	font-size: 11px;
 }
 .entry-content select {
 	margin: 0 0 24px 0;
@@ -1141,7 +1141,7 @@ img.aligncenter {
 }
 .wp-caption p.wp-caption-text {
 	color: #888;
-	font-size: 12px;
+	font-size: 11px;
 	margin: 5px;
 }
 .wp-smiley {
@@ -1175,7 +1175,7 @@ img.aligncenter {
 }
 .gallery .gallery-caption {
 	color: #888;
-	font-size: 12px;
+	font-size: 11px;
 	margin: 0 0 12px;
 }
 .gallery dl {
@@ -1199,7 +1199,7 @@ img.aligncenter {
 .navigation {
 	color: #888;
 	float:left;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 18px;
 	overflow: hidden;
 }
@@ -1254,7 +1254,7 @@ h3#reply-title {
 	font-weight: bold;
 	margin-bottom: 0;
 	margin: 18px 0;
-	font-size:12px;
+	font-size: 11px;
 	background-image:url(images/hbar.png);
 	background-repeat:repeat-x;
 	background-position:bottom;
@@ -1316,7 +1316,7 @@ padding:0px 0px 40px 0px;
 	font-style: italic;
 }
 .comment-meta {
-	font-size: 12px;
+	font-size: 11px;
 	margin: 0 0 18px 0;
 }
 .comment-meta a:link,
@@ -1378,7 +1378,7 @@ a.comment-edit-link:hover {
 #comments .pingback p {
 	color: #888;
 	display: block;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 18px;
 	margin: 0;
 }
@@ -1424,7 +1424,7 @@ h3#reply-title {
 	margin: 0;
 }
 #cancel-comment-reply-link {
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: normal;
 	line-height: 18px;
 }
@@ -1528,7 +1528,7 @@ padding: 2px;
 .widget-title {
 	color: #191919;
 	padding: 7px;
-	font-size:12px;
+	font-size: 11px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	margin: 0px 0px 0px 9px;
@@ -1537,7 +1537,7 @@ padding: 2px;
 .widget-area a:visited {
 	text-decoration: none;
 	color: #757575;
-	font-size:12px;
+	font-size: 11px;
 }
 .widget-area a:active,
 .widget-area a:hover {
@@ -1559,7 +1559,7 @@ margin: 0px 0px 0px 15px;
 }
 #wp-calendar caption {
 	color: #222;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: bold;
 	padding-bottom: 4px;
 	text-align: left;
