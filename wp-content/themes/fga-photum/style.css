@@ -437,6 +437,7 @@ text-align:center;
 }
 .first{
 	border-top: 1px solid #000;
+	margin-top: 5px;
 }
 .last{
 	border-bottom: 1px solid #000;
