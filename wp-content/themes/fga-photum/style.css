@@ -43,7 +43,7 @@ body .mc-cycle{
 }
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
- font-family: Helvetica, arial, sans-serif;
+ font-family: "Akzidenz Grotesk Light", Helvetica, arial, sans-serif;
 	font-weight: normal;
 }
 ol, ul {
@@ -161,10 +161,10 @@ h3#reply-title,
 .reply,
 .widget-title,
 .wp-caption-text {
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: "Akzidenz Grotesk Light","Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 input[type=submit] {
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: "Akzidenz Grotesk Light", "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 pre {
 	font-family: "Courier 10 Pitch", Courier, monospace;
@@ -377,7 +377,7 @@ color:#b7b7b7;
 font-style:italic;
 width:150px;
 margin:20px 0px 0px 25px;
-font-family:Georgia, "Times New Roman", Times, serif;
+font-family:"Akzidenz Grotesk Light", Georgia, "Times New Roman", Times, serif;
 text-align:center;
 }
 #site-title p {
@@ -385,7 +385,7 @@ font-size:11px;
 color:#b7b7b7;
 font-style:italic;
 margin:20px 0px 0px 0px;
-font-family:Georgia, "Times New Roman", Times, serif;
+font-family:"Akzidenz Grotesk Light", Georgia, "Times New Roman", Times, serif;
 text-align:center;
 }
 
@@ -397,7 +397,7 @@ margin: 0px 0px 0px 30px;
 font-size:30px;
 text-align:center;
 text-transform:uppercase;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "Akzidenz Grotesk Light", Arial, Helvetica, sans-serif;
 margin: 10px 0px 5px 0px;
 }
 #site-title .logo2 a {
@@ -410,7 +410,7 @@ span.site-description {
 font-size:11px;
 color:#b7b7b7;
 margin:20px 0px 0px 0px;
-font-family:Georgia, "Times New Roman", Times, serif;
+font-family:"Akzidenz Grotesk Light", Georgia, "Times New Roman", Times, serif;
 text-align:center;
 }
 
@@ -634,7 +634,7 @@ div.menu li {
 	color: #000;
 	font-size: 11px;
 	line-height:21px;
-    font-family: Helvetica, arial, sans-serif;
+    font-family: "Akzidenz Grotesk Light", Helvetica, arial, sans-serif;
 	
 }
 
@@ -1020,7 +1020,7 @@ body.page .edit-link {
 
 .more {
 margin: -25px 0px 0px 0px;
-font-family:"acosmin", "Lucida Bright", Georgia, "Times New Roman", Times, serif; text-align:left; text-transform:uppercase;
+font-family:"Akzidenz Grotesk Light","acosmin", "Lucida Bright", Georgia, "Times New Roman", Times, serif; text-align:left; text-transform:uppercase;
 background-color: #181818;
 float:right;
 display:inline-block;
@@ -1529,7 +1529,7 @@ padding: 2px;
 	color: #191919;
 	padding: 7px;
 	font-size: 11px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:"Akzidenz Grotesk Light", Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	margin: 0px 0px 0px 9px;
 }
