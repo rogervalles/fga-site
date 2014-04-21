@@ -30,7 +30,7 @@
 				<?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'menu-header', 'theme_location' => 'primary', 'depth' => 	-1 ) ); ?>
 
 				<div class="meta-info">	
-				<ul><li class="title"><?php the_title(); ?></li>
+				<ul><!--li class="title"><?php /*the_title();*/ ?></li>-->
                     <?php 
                         /*$meta = get_post_meta( get_the_ID() ); 
                         $exclude = array('_edit_last', '_wp_page_template', '_edit_lock','_thumbnail_id');

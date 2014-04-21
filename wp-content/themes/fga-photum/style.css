@@ -203,7 +203,7 @@ div.menu,
 	float: left;
 	margin-right: 20px;
 	width: 220px;
-	color:#757575;
+	color:#333;
 }
 #footer-widget-area #fourth {
 	margin-right: 0;
@@ -343,7 +343,7 @@ a:visited {
 }
 a:active,
 a:hover {
-	color: #000;
+	color: #09c;
 }
 
 /* Text meant only for screen readers */
@@ -426,25 +426,27 @@ text-align:center;
 /* =Menu
 -------------------------------------------------------------- */
 .menu{
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	text-align: left;
 }
 .menu li ul, .submenu{
-	text-transform: lowercase;
+	/*text-transform: lowercase;*/
 }
-.submenu {
+.subcategory, .subpage, .submenu {
     display: none;
 }
 .first{
-	border-top: 1px solid #000;
+	border-top: 1px dotted #333;
 	margin-top: 5px;
+	padding-top: 3px;
 }
 .last{
-	border-bottom: 1px solid #000;
+	border-bottom: 1px dotted #333;
+	padding-bottom: 3px;
 }
 #access {
 	display: block;
-	margin: 60px 0px 10px 40px;
+	margin: 60px 0px 10px 30px;
 	position: fixed;
 }
 #access .menu-header,
@@ -462,9 +464,9 @@ div.menu li {
 	position: relative;
 }
 #access a {
-	color: #757575;
+	color: #333;
 	width:140px;
-	line-height: 22px;
+	line-height: 14px;
 	text-decoration: none;
 }
 #access ul ul {
@@ -497,10 +499,10 @@ div.menu li {
 	height: auto;
 }
 #access li:hover > a {
-	color: #191919;
+	color: #09c;
 }
 #access ul ul :hover > a {
-	color: #191919;
+	color: #09c;
 }
 #access ul li:hover > ul {
 	display: block;
@@ -516,7 +518,7 @@ div.menu li {
 * html #access ul li.current-menu-item a,
 * html #access ul li.current-menu-parent a,
 * html #access ul li a:hover {
-	color: #191919;
+	color: #09c;
 }
 
 
@@ -534,7 +536,7 @@ div.menu li {
 #content,
 #content input,
 #content textarea {
-	color: #757575;
+	color: #333;
 	font-size: 11px;
 	line-height: 22px;
 }
@@ -638,7 +640,7 @@ div.menu li {
 }
 .page-title a:active,
 .page-title a:hover {
-	color: #ff4b33;
+	color: #09c;
 }
 #content .entry-title {
 	color: #000;
@@ -663,7 +665,7 @@ margin-top:25px;
 }
 .entry-title a:active,
 .entry-title a:hover {
-	color: #fff;
+	color: #09c;
 }
 .entry-meta {
 	color: #c1bfbf;
@@ -691,7 +693,7 @@ margin-top:25px;
 	font-size: 11px;
 }
 .info a{
-	color: #757575;
+	color: #333;
 }
 .entry-content {
 	clear: both;
@@ -735,7 +737,7 @@ list-style: none;
 margin: 0px 0px 0px 15px;
 }
 .bigimage span a, visited {
-color:#757575;
+color:#333;
 text-transform:capitalize;
 }
 .bigimage h4 {
@@ -974,7 +976,7 @@ font-size: 11px;
 }
 .page-link a:active,
 .page-link a:hover {
-	color: #ff4b33;
+	color: #09c;
 }
 body.page .edit-link {
 	clear: both;
@@ -1022,7 +1024,7 @@ body.page .edit-link {
 }
 .entry-meta a:hover,
 .entry-utility a:hover {
-	color: #fff;
+	color: #09c;
 }
 #content .video-player {
 	padding: 0;
@@ -1220,7 +1222,7 @@ img.aligncenter {
 }
 .navigation a:active,
 .navigation a:hover {
-	color: #ff4b33;
+	color: #09c;
 }
 .nav-previous {
 	float: left;
@@ -1336,7 +1338,7 @@ padding:0px 0px 40px 0px;
 }
 .comment-meta a:active,
 .comment-meta a:hover {
-	color: #191919;
+	color: #09c;
 }
 .commentlist .even {
 }
@@ -1497,7 +1499,7 @@ margin:20px 0px 0px 0px !important;
 -------------------------------------------------------------- */
 .widget-area ul {
 	list-style: none;
-	width:170px;
+	width:180px;
 }
 .widget-area ul ul {
 	list-style: square;
@@ -1545,13 +1547,13 @@ padding: 2px;
 .widget-area a:link,
 .widget-area a:visited {
 	text-decoration: none;
-	color: #757575;
+	color: #333;
 	font-size: 11px;
 }
 .widget-area a:active,
 .widget-area a:hover {
 	text-decoration: none;
-	color:#191919;
+	color:#09c;
 }
 .widget-area .entry-meta {
 	font-size: 11px;
@@ -1597,7 +1599,7 @@ margin: 0px 0px 0px 15px;
 	color: #000;
 }
 .widget_rss a.rsswidget:hover {
-	color: #ff4b33;
+	color: #09c;
 }
 .widget_rss .widget-title img {
 	width: 11px;
@@ -1624,13 +1626,15 @@ margin: 0px 0px 0px 15px;
 	font-size: 11px;
 	font-style: normal;
 	text-align: justify;
-	color: #757575;
+	color: #333;
 }
 .meta-info ul{
-	margin: 10px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
 }
 .title{
     font-weight: bold;
+    text-align: left;
+    padding-top: 5px;
 }
 
 /* Footer widget areas */
@@ -1641,7 +1645,7 @@ margin: 0px 0px 0px 15px;
 margin: 10px 0px 0px 15px;
 line-height:22px;
 padding: 5px;
-color:#757575;
+color:#333;
 }
 #footer-widget-area .widget-title {
 font-weight:normal;
