@@ -31,3 +31,9 @@ get_header(); ?>
 		</div><!-- #container -->
 
 <?php get_footer(); ?>
+
+<script type="text/javascript">
+
+     $(".subpage").css("display", "block");
+
+</script>
