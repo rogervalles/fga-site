@@ -512,6 +512,7 @@ div.menu li {
 #access ul li.current-menu-item > a,
 #access ul li.current-menu-parent > a {
 	color: #191919;
+	font-weight: bold;
 }
 * html #access ul li.current_page_item a,
 * html #access ul li.current-menu-ancestor a,
