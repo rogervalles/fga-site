@@ -706,4 +706,5 @@ function __popular_posts($no_posts=6, $before="<li>", $after="</li>", $show_pass
 ?>
 <?php 
 include_once ('includes/custompost.php'); 
+add_post_type_support('page','excerpt');
 ?>
