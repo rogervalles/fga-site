@@ -202,7 +202,6 @@ div.menu,
 #footer-widget-area .widget-area {
 	float: left;
 	margin-right: 20px;
-	width: 220px;
 	color:#333;
 }
 #footer-widget-area #fourth {
@@ -444,6 +443,7 @@ text-align:center;
 	padding-bottom: 3px;
 }
 #access {
+	width: 20%;
 	display: block;
 	margin: 60px 0px 10px 0px;
 	position: fixed;
@@ -457,6 +457,7 @@ div.menu {
 div.menu ul {
 	list-style: none;
 	margin: 0;
+	width: 95%;
 }
 #access .menu-header li,
 div.menu li {
@@ -609,7 +610,7 @@ div.menu li {
 	background: #f2f7fc;
 }
 .hentry {
-	width:230px !important;
+	/*width:230px !important;*/
 	float:left;
 	margin: 0 0px 0px 8px !important;
 }
@@ -1630,7 +1631,6 @@ margin: 0px 0px 0px 15px;
 }
 
 .meta-info{
-	width: 235px;
 	color: #000;
 	font-size: 11px;
 	font-style: normal;
@@ -1687,7 +1687,6 @@ display:block;
 	font-style: italic;
 	bottom: 30px;
 	left: 10px;
-	width: 230px;
 	position: fixed;
 }
 .clr {
