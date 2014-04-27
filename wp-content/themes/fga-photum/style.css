@@ -78,15 +78,17 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 #move{
 	margin-top: 0px;
 	margin-left: 0px;
+	width: 95%;
 }
 #container {
 	margin: 0 0px 0 0px;
-	padding: 0px 10px;
+	padding: 0px 0px;
 	height:100%;
 }
 #container #content {
 	height:100%;
 	padding:70px 0px 0px 0px;
+	width:100%;
 }
 .single-photo #container #content  {
 }
@@ -95,10 +97,10 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 }
 
 #primary {
-	width:240px;
+	width:20%;
 	float:left;
 	height:100%;
-	padding: 20px 10px 0px 0px !important;
+	padding: 20px 0px 0px 0px !important;
 	background-color:#FFFFFF;
 	}
 #secondary {
@@ -178,21 +180,19 @@ code {
 -------------------------------------------------------------- */
 
 /* The main theme structure */
-#access .menu-header,
 div.menu,
-#colophon,
-#branding,
 #wrapper {
-	margin: 0px;
 	width:100%;
 	padding:0px;
 	height:100%;
+	width: 100%;
+	margin: 0 auto;
 }
 #wrapper {
 	margin-top: 0px;
 	position: relative;
 	min-height:100%;
-	padding: 0 0px;
+	padding: 0 30px 0 30px;
    }
 
 /* Structure the footer area */
@@ -368,15 +368,14 @@ a:hover {
 }
 #site-title .logo {
 display:block;
-clear:both;
-width:230px;
+clear:both;	
 }
 #site-title .logo p {
 font-size:11px;
 color:#b7b7b7;
 font-style:italic;
 width:150px;
-margin:20px 0px 0px 25px;
+margin:20px 0px 0px 0px;
 font-family:"Akzidenz Grotesk Light", Georgia, "Times New Roman", Times, serif;
 text-align:center;
 }
@@ -391,7 +390,7 @@ text-align:center;
 
 #site-title .logo img {
 display:block;
-margin: 0px 0px 0px 30px;
+
 }
 #site-title .logo2 h1 {
 font-size:30px;
@@ -446,7 +445,7 @@ text-align:center;
 }
 #access {
 	display: block;
-	margin: 60px 0px 10px 30px;
+	margin: 60px 0px 10px 0px;
 	position: fixed;
 }
 #access .menu-header,
@@ -465,7 +464,7 @@ div.menu li {
 }
 #access a {
 	color: #333;
-	width:140px;
+	width:100%;
 	line-height: 14px;
 	text-decoration: none;
 }
@@ -533,12 +532,15 @@ div.menu li {
 -------------------------------------------------------------- */
 
 #main {
-	position: absolute;
-	left: 230px;
+	width:80%;
+	float: left;
 
 }
 #content {
 	margin-bottom: 0px;
+}
+.grid{
+	width: 100%;
 }
 #content,
 #content input,
@@ -607,9 +609,9 @@ div.menu li {
 	background: #f2f7fc;
 }
 .hentry {
-	width:224px !important;
+	width:230px !important;
 	float:left;
-	margin: 0 0px 0px 20px !important;
+	margin: 0 0px 0px 8px !important;
 }
 .single .hentry {
 	width:805px !important;
@@ -705,7 +707,7 @@ margin-top:25px;
 .entry-content {
 	clear: both;
 	float:left;
-	width:750px;
+	width:100%;
 	padding: 0px 0 0 0;
 	
 }
@@ -782,8 +784,8 @@ margin: 10px 0px 5px 15px !important;
 
 
 .item {
-	width:200px;
-	height:251px;	
+	width:230px;
+	height:280px;	
 	/*border: 1px solid #d6d6d6;
 	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.1);
 	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,.1);
@@ -803,8 +805,8 @@ margin: 10px 0px 5px 15px !important;
 	display: block;
 	margin: 0px;
 	padding: 9px;
-	width:190px !important;
-	height:190px !important;
+	width:220px !important;
+	height:220px !important;
 		/* allow javascript moves the img position*/
 	position:absolute;
 

@@ -133,7 +133,7 @@ query_posts( array('post_type'=>array( 'photo', 'post'),'paged'=>$paged, 'cat'=>
         	<?php else : ?>
             	<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <!--start item-->
-<a href="http://www.google.es">
+
 <div class="item">      
 <?php
 if ( has_post_thumbnail()) {
@@ -150,7 +150,6 @@ if ( has_post_thumbnail()) {
 
 
 <!--end item-->
-</a>
 <div class="info">
     <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?>
 </div>
