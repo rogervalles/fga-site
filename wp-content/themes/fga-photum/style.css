@@ -357,7 +357,6 @@ a:hover {
 
 #header {
 	padding: 0px 0 0 0;
-	width:180px;
 	float:left;
 }
 #site-title {
@@ -714,7 +713,7 @@ margin-top:25px;
 }
 .post-sidebar {
 float:right;
-width:180px;
+
 }
 .bigimage {
    position: relative;
@@ -1509,7 +1508,6 @@ margin:20px 0px 0px 0px !important;
 -------------------------------------------------------------- */
 .widget-area ul {
 	list-style: none;
-	width:180px;
 }
 .widget-area ul ul {
 	list-style: square;
