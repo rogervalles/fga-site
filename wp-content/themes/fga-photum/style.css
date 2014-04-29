@@ -103,6 +103,8 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 	height:100%;
 	padding: 20px 0px 0px 0px !important;
 	background-color:#FFFFFF;
+	position: fixed;
+	max-width: 200px;
 	}
 #secondary {
 	clear: right;
