@@ -529,7 +529,7 @@ div.menu li {
 	color: #09c;
 }
 
-#access ul li.current-menu-item > a, #access ul li.current-page-ancestor > a, #access ul li.current-category-ancestor > a{
+#access ul li.current-menu-item > a, #access ul li.current-page-ancestor > a, #access ul li.current-category-ancestor > a, #access ul li.current-photo-ancestor > a{
 	color:#000;
 	font-weight:bold;
 }
