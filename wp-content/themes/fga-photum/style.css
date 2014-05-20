@@ -506,9 +506,9 @@ div.menu li {
 	height: auto;
 }
 #access li:hover > a {
-	color: #09c;
+	color: #09c !important;
 }
-#access ul ul :hover > a {
+#access ul ul:hover > a {
 	color: #09c;
 }
 #access ul li:hover > ul {
@@ -875,8 +875,8 @@ text-decoration:none;
 	border: 1px solid #d6d6d6;
 	margin: 0px;
 	padding: 9px;
-	width:234px !important;
-	height:190px !important;
+	width:220px !important;
+	height:220px !important;
 }
 .item-blog .caption-blog {
 	width:214px;
@@ -1129,7 +1129,7 @@ img.size-large,
 img.size-medium,
 .attachment img {
 	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
-	height: auto; /* Override height to match resized width for correct aspect ratio. */
+	/*height: auto;*/ /* Override height to match resized width for correct aspect ratio. */
 }
 .alignleft,
 img.alignleft {
