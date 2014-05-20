@@ -59,7 +59,7 @@ query_posts( array('post_type'=>array( 'photo', 'post'),'paged'=>$paged, 'tag'=>
 
 	<?php if ( ( function_exists( 'get_post_format' ) && 'gallery' == get_post_format( $post->ID ) ) || in_category( _x( 'gallery', 'gallery category slug', 'twentyten' ) ) ) : ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '  %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
 			<div class="entry-meta">
 				<?php twentyten_posted_on(); ?>
@@ -80,7 +80,7 @@ query_posts( array('post_type'=>array( 'photo', 'post'),'paged'=>$paged, 'tag'=>
 							<a class="size-thumbnail" href="<?php the_permalink(); ?>"><?php echo $image_img_tag; ?></a>
 						</div><!-- .gallery-thumb -->
 						<p><em><?php printf( _n( 'This gallery contains <a %1$s>%2$s photo</a>.', 'This gallery contains <a %1$s>%2$s photos</a>.', $total_images, 'twentyten' ),
-								'href="' . get_permalink() . '" title="' . sprintf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ) . '" rel="bookmark"',
+								'href="' . get_permalink() . '" title="' . sprintf( esc_attr__( '  %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ) . '" rel="bookmark"',
 								number_format_i18n( $total_images )
 							); ?></em></p>
 				<?php endif; ?>
@@ -129,17 +129,17 @@ query_posts( array('post_type'=>array( 'photo', 'post'),'paged'=>$paged, 'tag'=>
 <?php
 if ( has_post_thumbnail()) {
 ?>
-<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">    <?php echo get_the_post_thumbnail( $post->ID, 'main-thumbnail' ); ?></a>
+<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '  %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">    <?php echo get_the_post_thumbnail( $post->ID, 'main-thumbnail' ); ?></a>
  <?
 } else {
 ?>
-<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">   
+<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '  %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">   
 <img src="<?php bloginfo('template_url'); ?>/images/defaultthumb.jpg"; />
 </a>
 <? } ?>
-<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">
+<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '  %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">
 <div class="caption">
-		<h2 class="entry-title">            <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+		<h2 class="entry-title">            <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '  %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 		<div class="entry-meta"><?php the_time('F jS, Y') ?></div>
         <span>
         <?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( '1 Comment', 'twentyten' ), __( '% Comments', 'twentyten' ) ); ?><br />
