@@ -138,7 +138,7 @@ query_posts( array('post_type'=>array( 'photo', 'post'),'paged'=>$paged, 'cat'=>
 <?php
 if ( has_post_thumbnail()) {
 ?>
-<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '  %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">    <?php echo get_the_post_thumbnail( $post->ID, 'main-thumbnail' ); ?></a>
+<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '  %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">    <?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?></a>
  <?
 } else {
 ?>
