@@ -18,7 +18,7 @@ get_header(); ?>
 		<div id="container">
 			<div id="content" role="main">
 
-		<div id="maximage">
+		<div id="maximage" style="width:500px;height:500px;">
 			<?php 
            $content_post = get_page_by_title( 'Home images', OBJECT, 'post' );
                if($content_post)
@@ -58,7 +58,10 @@ get_header(); ?>
 
 			timeout: 5000,
 			fit: 1,
-			width: 750,
+			width: 500,
+			height: 500,
+			slideResize: 1,
+
 		},
 		
 	});
