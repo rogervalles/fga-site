@@ -1130,7 +1130,7 @@ img.size-large,
 img.size-medium,
 .attachment img {
 	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
-	/*height: auto;*/ /* Override height to match resized width for correct aspect ratio. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
 }
 .alignleft,
 img.alignleft {
