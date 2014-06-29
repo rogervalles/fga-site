@@ -1812,7 +1812,7 @@ img#wpstats {
 /* =Mobile Safari ( iPad, iPhone and iPod Touch )
 -------------------------------------------------------------- */
 
-pre {
+/*pre {
 	-webkit-text-size-adjust: 140%;
 }
 code {
@@ -1827,7 +1827,64 @@ code {
 }
 #site-description {
 	-webkit-text-size-adjust: none;
+}*/
+
+@media screen and (max-device-width: 480px) { 
+	#site-title{
+		overflow: visible;
+	}
+	#site-title .logo img{
+		width: 100px;
+	}
+	#wrapper{
+		max-width: 480px;
+	}
+	#primary{
+		width: 100px;
+		max-width: 100px;
+		height: 100%;
+	}
+	#main{
+		width: 380px;
+		position: relative;
+		float:left;
+		margin-left: 60px;
+	}
+	#container #content{
+		margin-left:5px;
+	}
+
 }
+
+@media screen and (max-device-width: 320px) { 
+	#site-title{
+		overflow: visible;
+	}
+
+	#site-title .logo img{
+		width: 65px;
+	}
+
+	#wrapper{
+		max-width: 320px;
+	}
+	#primary{
+		width: 65px;
+		max-width: 65px;
+		height: 100%;
+	}
+	#main{
+		width: 220px;
+		position: relative;
+		float:left;
+		margin-left: 40px;
+	}
+	#container #content{
+		margin-left:5px;
+	}
+
+}
+
 
 
 
