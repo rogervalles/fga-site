@@ -1874,7 +1874,7 @@ code {
 }
 
 /* Landscape */
-@media screen and (min-width: 321px){
+@media screen and (min-width: 321px) and (max-width: 768px){
 	#site-title{
 		overflow: visible;
 	}
