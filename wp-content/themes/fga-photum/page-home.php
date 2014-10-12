@@ -16,9 +16,9 @@
 get_header(); ?>
 
 		<div id="container">
-			<div id="content" role="main">
+			<div id="content" role="main" style="position:relative;">
 
-		<div id="maximage" style="width:500px;height:500px;">
+		<div id="slideshow" style="margin: auto; position: absolute; top: 0; left:0; bottom:0; right:0; width: 500; height: 500;">
 			<?php 
            $content_post = get_page_by_title( 'Home images', OBJECT, 'post' );
                if($content_post)
@@ -45,29 +45,8 @@ get_header(); ?>
 			</div><!-- #content -->
             <?php get_sidebar(''); ?>
 		</div><!-- #container -->
-
-	<script src="<?php bloginfo('template_url'); ?>/js/jquery.cycle.all.min.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.maximage.min.js"></script> 
 			
-	<script type="text/javascript" charset="utf-8">
-			$(function(){
-				// Trigger maximage
 
-	$('#maximage').maximage({
-		cycleOptions: {
-
-			timeout: 5000,
-			fit: 1,
-			width: 500,
-			height: 500,
-			slideResize: 1,
-
-		},
-		
-	});
-		
-	});
-	</script>
 
 	<?php
 	/* Always have wp_footer() just before the closing </body>
